@@ -1,0 +1,506 @@
+html
+{
+    position:relative;
+    min-height:100%;
+}
+
+
+
+body
+{
+	background-color: //#F3F5E4;//#DFE2DB;//#eddab6;//#e8d1a4;// #FDF3E7;		//#E8E8D0;       //
+	position:relative;
+	margin: 0 0 50px; /* bottom = footer height */
+    padding: 25px;
+}
+
+section
+{
+	position:relative;
+	padding-bottom:3%;
+	padding-top:10%;
+}
+footer
+{
+	padding-top:15px;
+	background-color:#CCCCCC;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow:hidden;	
+}
+.header
+{
+	background-color:#E13C1C;//#DC5439;#ab3334;//;//#C63D0F;//#6CCADD;//				//#69D2E7;		//#97282c;		//
+}
+
+input:focus:valid
+{
+	border:1.5px solid #5DEF4C;
+	box-shadow:0px 0px 5px green;
+}
+
+input:focus:invalid
+{
+    border:1.5px solid #FF595C; 
+	box-shadow:0px 0px 5px red;
+}
+
+hr
+{
+	border:1px solid #152737;
+}
+*:focus
+{
+		outline:0 !important;		
+}
+.margin_left
+{
+	margin-left:50px;
+}
+.margin_right
+{
+	margin-right:50px;
+}
+.error
+{
+	color:red;
+}
+.clear
+{
+	clear:both;
+}
+textarea
+{
+	width:100%;
+	resize:none;
+	background:#202121;
+	border:1px solid #3B3738;
+}
+font
+{
+	color:#3B3738;
+	font-size:25px;
+}
+.none
+{
+	display:none;
+}
+.float
+{
+	float:left;
+}
+.search
+{
+	margin-top:75px;
+	margin-bottom:40px;
+}
+.inputsearch
+{
+	background:white;
+	padding:20px;
+	color:#3B3738;
+	letter-spacing:1px;	
+}
+
+.social
+{
+	margin-top:30px;
+	margin-left:125px;	
+}
+.social div
+{
+	width:50px;
+	height:50px;
+	background:white;
+	text-align:center;
+	font-size:20px;
+	margin:8px;
+	border-radius:50px;
+	line-height:50px;	
+}
+.social div:hover
+{
+	cursor:pointer;
+	background:##3B3738;
+	border:1px solid #3B3738;
+	transition:0.3s;	
+}
+.social div:hover a
+{
+	color:#E13C1C;
+	transition:0.3s;	
+}
+.links  a
+{
+	color:white;	
+}
+.links
+{
+	margin-top:12px;
+}
+.links a:hover
+{
+	letter-spacing:-0.7px;
+	transition:0.5s;
+	text-decoration:none;
+}
+.menu 
+{
+	background:#E13C1C;
+	padding:10px;
+}
+.menu a
+{
+	color:white;
+	text-decoration:none;
+}
+.menu:hover
+{
+	background:linear-gradient(#E13C1C,white,#E13C1C);
+	transition:1s;
+}
+.menu:hover a
+{
+	text-decoration:none;
+	color:black;
+}
+
+::-webkit-scrollbar
+{
+    width:1em;
+}
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 4px grey;
+}
+::-webkit-scrollbar-thumb
+{
+  border-radius:4px;	
+  background-color:#3B3738;
+  border: 1.5px solid grey;
+}
+.form-box
+{
+	color:#3B3738;
+	padding:18px;
+	font-weight:350;
+	border:2px solid #152737;
+	margin-top:15px;
+}
+.same
+{
+	width:18px;
+	height:20px;
+	line-height:20px;
+}
+.txt
+{
+	background:white;
+	color:#3B3738;
+	letter-spacing:1px;
+	padding:20px;	
+}
+.file
+{
+	background:white;
+	color:#3B3738;
+	letter-spacing:1px;
+	height:44px;
+	padding-top:10px;	
+}
+.margin_botm
+{
+	margin-bottom:12px;
+}
+
+.margin
+{
+	margin:10px;
+}
+
+.margin_top
+{
+	margin-top:12px;
+}
+
+.allbtn
+{
+	background:white;
+	border:1px solid #3B3738;
+	color:#E13C1C;
+	width:150px;
+}
+.allbtn:hover
+{
+	background:#E13C1C;
+	color:white;
+	border:1px solid white;
+	transition:0.5s;	
+}
+.regradio
+{
+	color:#3B3738;
+	margin-top:12px;
+	margin-left:5px;
+}
+.heading
+{	
+	border: none;
+	color:#3B3738;
+	font-size:24px;
+}
+.heading:hover
+{
+	font-size:28px;
+	letter-spacing:1.5px;
+	cursor:pointer;
+	transition:0.5s;
+	color:#E13C1C;		
+}
+.sidemenutxt
+{
+	color:#3B3738;
+	font-size:16px;
+	margin-left:35px;
+	padding:10px;
+	border:1px solid #E13C1C;
+	margin-bottom:10px;
+}
+.sidemenutxt:hover
+{
+	letter-spacing:2px;
+	transition:0.5s;
+	background:;
+	color:black;
+	border:2px solid #E13C1C;
+}
+.side-home:hover a
+{
+	text-decoration:none;
+}
+
+.sidemain
+{
+	font-size:16px;
+	color:#3B3738;
+	border:1px solid #E13C1C;
+	margin-left:35px;
+	margin-bottom:10px;
+	padding:10px;
+	letter-spacing:1.5px;
+}
+.sidemain:hover
+{
+	letter-spacing:2.5px;
+	transition:0.7s;
+	background:;
+	color:black;
+	border:2px solid #E13C1C;
+}
+.user
+{
+	height:100px;
+	width:100px;
+}
+.sidemain:hover .user
+{
+	height:150px;
+	width:150px;
+	transition:0.5s;
+}
+.box
+{
+	border:1px solid #E13C1C;	
+	padding:8px;
+	color:#3B3738;	
+	text-align:center;
+	margin-top:10px;
+	margin-left:35px;
+	margin-bottom:12px;
+	letter-spacing:2px;
+}
+.box:hover
+{
+	letter-spacing:3px;
+	transition:0.5s;	
+	background:;
+	border:2px solid #E13C1C;
+	color:black;
+	cursor:pointer;
+	border-radius:5px;
+	box-shadow:0px 0px 3px white;	
+}
+.box:hover .counter
+{
+	background:#E13C1C;
+	border:2px solid #E13C1C;
+	color:white;		
+	box-shadow:0px 0px 20px #E13C1C;
+}
+.counter
+{
+	background:;
+	border:1px solid #E13C1C;
+	height:75px;
+	width:75px;
+	line-height:75px;
+	text-align:center;
+	border-radius:75px;
+	margin-top:12px;
+	margin-bottom:12px;	
+	color:black;
+}
+
+table th
+{
+	text-align:center;	
+	vertical-align:middle;
+	word-wrap:break-word;
+	
+}
+
+/*.tabledata tr td
+{
+	text-align:center;	
+	width:150px;
+	word-wrap:break-word;
+	vertical-align:middle;
+}
+*/ table
+  {
+	  border-collapse:collapse;
+	   table-layout:fixed;
+	    width:95%;
+}
+  table td,tr 
+  {
+   width:150px;
+   word-wrap:break-word; 
+   text-align:center; 
+   vertical-align:middle;
+ }
+
+.tablestyle tr th
+{
+	
+	padding:10px;
+	text-align:center;	
+}
+
+.tablestyle tr td
+{
+	
+	padding:10px;
+	text-align:center;	
+}
+	
+.displayprofilepic
+{
+	padding:3px;
+	width:80px;
+	height:80px;
+	border-radius:10px;
+}
+
+.showproduct
+{
+	
+}
+	
+.productdisplay
+{
+	border:1px solid #E13C1C;
+	width:200px;
+	margin:15px 15px;
+}
+.productdisplay:hover 
+{
+	box-shadow:0px 0px 15px #152737;	
+		
+}
+.productimgdisplay
+{
+	padding:12px;
+	width:200px;
+	height:250px;
+	overflow:hidden;
+}
+.productnamedisplay
+{
+	padding:2px;
+	width:115px;
+}
+.productpricedisplay
+{
+		padding:2px;
+}
+.productinfo
+{
+	border-bottom:1px solid #E13C1C ;
+	border-top:1px solid #E13C1C ;
+}
+.productaddtocart span
+{
+	padding:10px;
+	margin:5px;
+}
+.productdisplay:hover .productimgdisplay
+{
+	transform:scale(1.1,1.1);
+	transition:0.5s;
+}
+
+@media(max-width:990px)
+{
+	.search
+	{
+		margin-top:5px;
+	}
+	.social
+	{
+		display:none;
+		margin-top:3px;
+		margin-left:15px;
+	}
+	section
+	{
+		padding-top:200px;
+	}
+	.displayprofilepic
+	{
+	padding:2px;
+	width:25px;
+	height:25px;
+	border-radius:8px;
+	}
+	.user
+	{
+	height:80px;
+	width:80px;
+	}
+.sidemain:hover .user
+{
+	height:125px;
+	width:125px;
+	transition:0.5s;
+}
+
+}
+@media(max-width:770px)
+{
+	.search
+	{
+		margin-top:2px;
+	}
+	section
+	{
+		padding-top:200px;
+	}
+	.productdisplay
+	{
+		margin-left:150px;
+	}
+}
